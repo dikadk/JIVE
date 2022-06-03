@@ -1,0 +1,30 @@
+<Component id="home-page" align-items="centre" justify-content="centre" flex-grow="1">
+    <Component align-items="centre">
+        <Title>Welcome to JIVE!</Title>
+        <Subtitle>The ultimate JUCE extension for building GUIs</Subtitle>
+    </Component>
+
+    <Component margin="50 0">
+        <PageLink id="home">
+            <HomeIcon />
+            <Text margin="0 0 0 10">Home</Text>
+        </PageLink>
+
+        <PageLink id="layout">
+            <LayoutIcon />
+            <Text margin="0 0 0 10">Layouts</Text>
+        </PageLink>
+
+        <PageLink id="style-sheets">
+            <PaletteIcon />
+            <Text margin="0 0 0 10">Style Sheets</Text>
+        </PageLink>
+
+        <PageLink id="etc">
+            <HomeIcon />
+            <Text margin="0 0 0 10">Etc...</Text>
+        </PageLink>
+    </Component>
+
+    <Text>Press F12 to view and edit the source for any page in this demo!</Text>
+</Component>

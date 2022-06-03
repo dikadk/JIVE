@@ -1,8 +1,9 @@
 cmake_minimum_required(VERSION 3.15)
 
 option(JIVE_BUILD_TEST_RUNNER "Whether or not to build JIVE's test runner" OFF)
+option(JIVE_BUILD_DEMO_RUNNER "Whether or not to build JIVE's demo runner" OFF)
 
-if (JIVE_BUILD_TEST_RUNNER)
+if (JIVE_BUILD_TEST_RUNNER OR JIVE_BUILD_DEMO_RUNNER)
     project(JIVE)
     add_subdirectory(runners/libraries)
 endif()

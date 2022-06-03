@@ -1,0 +1,11 @@
+{
+    "foreground": "#33CC4C",
+
+    "hover": {
+        "foreground": "#55EE6E"
+    },
+
+    "active": {
+        "foreground": "#11AA2A"
+    }
+}
