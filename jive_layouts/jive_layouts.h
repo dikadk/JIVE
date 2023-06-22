@@ -53,6 +53,7 @@ namespace jive
 #include "layout/gui-items/widgets/jive_ProgressBar.h"
 #include "layout/gui-items/widgets/jive_Slider.h"
 #include "layout/gui-items/widgets/jive_Window.h"
+#include "layout/gui-items/widgets/jive_Component.h"
 
 #include "layout/gui-items/widgets/jive_Hyperlink.h"
 #include "layout/gui-items/widgets/jive_Knob.h"

@@ -25,6 +25,7 @@
 #include "layout/gui-items/widgets/jive_ProgressBar.cpp"
 #include "layout/gui-items/widgets/jive_Slider.cpp"
 #include "layout/gui-items/widgets/jive_Window.cpp"
+#include "layout/gui-items/widgets/jive_Component.cpp"
 
 #include "layout/gui-items/widgets/jive_Hyperlink.cpp"
 #include "layout/gui-items/widgets/jive_Knob.cpp"

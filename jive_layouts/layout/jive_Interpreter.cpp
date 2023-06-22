@@ -102,6 +102,8 @@ namespace jive
             return std::make_unique<Text>(std::move(item));
         if (name == "Window")
             return std::make_unique<Window>(std::move(item));
+        if (name == "Component")
+            return std::make_unique<Component>(std::move(item));
 
         return item;
     }
